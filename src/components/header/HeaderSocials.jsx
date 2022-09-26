@@ -1,6 +1,6 @@
-import React from 'react'
-import {AiFillLinkedin} from "react-icons/ai"
-import {AiFillGithub} from "react-icons/ai"
+import React from 'react';
+import {AiFillLinkedin} from "react-icons/ai";
+import {AiFillGithub} from "react-icons/ai";
 
 const HeaderSocials = () => {
   return (
@@ -9,7 +9,7 @@ const HeaderSocials = () => {
       <a href="https://github.com/Artur-Vanivskyi" target="_blank"><AiFillGithub /></a>
       
     </div>
-  )
-}
+  );
+};
 
-export default HeaderSocials 
+export default HeaderSocials ;

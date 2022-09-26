@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { BsFacebook } from "react-icons/bs";
-import {AiFillLinkedin} from "react-icons/ai"
+import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillHome } from "react-icons/ai";
 
 const Footer = () => {

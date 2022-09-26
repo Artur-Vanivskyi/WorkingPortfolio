@@ -1,10 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./contact.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { RiMessengerLine } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
+import emailjs from "emailjs-com";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    emailjs.sendForm(
+      "service_txzlk3e",
+      "template_8mxc4aq",
+      form.current,
+      "9oKeGl-eMWGs7eKrs"
+    );
+
+    event.target.reset();
+  };
+
   return (
     <section id="contact">
       <h4>Get In Touch</h4>
@@ -16,7 +31,7 @@ const Contact = () => {
             <HiOutlineMail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>vanivskyi.artur@gmail.com</h5>
-            <a href="mailto:bla-bla@hmail.com" target="_blank">
+            <a href="mailto:vanivskyi.artur@gmail.com" target="_blank">
               Send a message
             </a>
           </article>
@@ -35,7 +50,7 @@ const Contact = () => {
             <h4>Phone</h4>
             <h5>+1 646-830-9748</h5>
             <a
-              href="https://api.wahtsapp.com/send?phone+123123123"
+              href="https://api.wahtsapp.com/send?phone+16468309748"
               target="_blank"
             >
               Send a message
@@ -43,7 +58,7 @@ const Contact = () => {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
@@ -53,7 +68,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
-            rows="7"
+            rows="10"
             placeholder="Your Message"
             required
           ></textarea>

@@ -1,16 +1,17 @@
 .about__container {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
 }
 
 .about__me {
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 16/9;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    padding-top: 12rem
 }
 
 .about__me-image {
@@ -21,7 +22,8 @@
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+   transform: scale(1)translate(10%, -40%); 
+   
 }
 
 .about__cards {

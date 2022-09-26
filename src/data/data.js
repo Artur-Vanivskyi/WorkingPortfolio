@@ -2,7 +2,7 @@ import grubDash from "../assets/grubDash.png";
 import WeLoveMovies from "../assets/WeLoveMovies.png";
 import FlashCard from "../assets/FlashCard.png";
 import DecoderRing from "../assets/DecoderRing.png";
-import IMG5 from "../assets/portfolio5.png";
+import test from "../assets/test.png";
 import IMG6 from "../assets/portfolio6.jpg";
 
 export const data = [

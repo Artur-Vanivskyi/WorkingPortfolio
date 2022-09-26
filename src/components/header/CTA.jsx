@@ -1,5 +1,5 @@
-import React from 'react'
-import Resume from '../../assets/Resume.pdf'
+import React from 'react';
+import Resume from '../../assets/Resume.pdf';
 
 const CTA = () => {
   return (
@@ -7,7 +7,7 @@ const CTA = () => {
         <a href={Resume} download className='btn'>Resume</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
-  )
-}
+  );
+};
 
-export default CTA
+export default CTA;

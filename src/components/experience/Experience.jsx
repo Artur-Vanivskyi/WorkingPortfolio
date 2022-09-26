@@ -21,7 +21,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -29,7 +29,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -37,7 +37,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>BootStrap</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -45,7 +45,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>React</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -53,11 +53,12 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -65,7 +66,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Express</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -73,7 +74,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PostgreSQL</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -81,7 +82,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>RESTful APIs</h4>
                 {/* <small className="text-light">Experiensed</small> */}
@@ -89,7 +90,7 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon"/>
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>Knex</h4>
                 {/* <small className="text-light">Experiensed</small> */}
