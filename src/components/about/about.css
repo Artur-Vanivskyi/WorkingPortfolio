@@ -22,8 +22,8 @@
 }
 
 .about__me-image:hover {
-   transform: scale(1)translate(10%, -40%); 
-   
+    transform: scale(1)translate(10%, -40%);
+
 }
 
 .about__cards {
@@ -104,7 +104,7 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0; 
+        margin: 1.5rem 0;
 
     }
 }

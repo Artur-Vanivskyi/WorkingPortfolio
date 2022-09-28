@@ -53,7 +53,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
-        
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
