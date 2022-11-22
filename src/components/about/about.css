@@ -97,6 +97,8 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+        margin-right: 2rem;
+
     }
 
     .about__content {
@@ -105,6 +107,13 @@
 
     .about__content p {
         margin: 1.5rem 0;
+        text-align: center;
+        margin-right: 2rem;
 
+    }
+    .place {
+       display: flex;
+       justify-content: center; 
+       margin-right: 2rem;
     }
 }
