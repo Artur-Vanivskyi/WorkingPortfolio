@@ -20,12 +20,12 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    transition: all 3s cubic-bezier(0.54,-0.15, 0.6, 2.44);
+    /* transition: all 3s cubic-bezier(0.54,-0.15, 0.6, 2.44); */
 }
 
-.portfolio__item:hover .portfolio__item-image {
+/* .portfolio__item:hover .portfolio__item-image {
     transform: scale(0.5)translate(30%, -20%); 
-}
+} */
 
 .portfolio__item h3 {
     margin: 1.2rem 0 2rem;

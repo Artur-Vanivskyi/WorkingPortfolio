@@ -2,16 +2,17 @@ import grubDash from "../assets/grubDash.png";
 import WeLoveMovies from "../assets/WeLoveMovies.png";
 import FlashCard from "../assets/FlashCard.png";
 import DecoderRing from "../assets/DecoderRing.png";
+import ReservationSystem from "../assets/ReservationSystem.png"
 //import test from "../assets/test.png";
 //import IMG6 from "../assets/portfolio6.jpg";
 
 export const data = [
     {
       id: 1,
-      image: grubDash,
-      title: "GrubDash",
-      github: "https://github.com/Artur-Vanivskyi/GrubDash-Project/tree/main/src",
-      //demo: "https://github.com/Artur-Vanivskyi/Local_library",
+      image: ReservationSystem,
+      title: "Reservation-System-App",
+      github: "https://github.com/Artur-Vanivskyi/Restaurant-reservation-system",
+      demo: "https://front-end-three-swart.vercel.app/dashboard",
     },
     {
       id: 2,
@@ -25,22 +26,22 @@ export const data = [
       image: FlashCard,
       title: "FlashCard",
       github: "https://github.com/Artur-Vanivskyi/Project-Fleshcards",
-     // demo: "https://github.com/Artur-Vanivskyi/Local_library",
+      demo: "https://flashcards-project-tau.vercel.app/decks/new",
     },
     {
       id: 4,
       image: DecoderRing,
       title: "DecoderRing",
       github: "https://github.com/Artur-Vanivskyi/Decoder-ring-project",
-      //demo: "https://github.com/Artur-Vanivskyi/Local_library",
+      demo: "https://decoder-ring-project-silk.vercel.app/",
     },
-    // {
-    //   id: 5,
-    //   image: IMG5,
-    //   title: "Crypto Currentcy dashboard5",
-    //   github: "https://github.com",
-    //   demo: "https://github.com/Artur-Vanivskyi/Local_library",
-    // },
+    {
+      id: 1,
+      image: grubDash,
+      title: "GrubDash",
+      github: "https://github.com/Artur-Vanivskyi/GrubDash-Project/tree/main/src",
+      // demo: "https://github.com/Artur-Vanivskyi/Local_library",
+    },
     // {
     //   id: 6,
     //   image: IMG6,
