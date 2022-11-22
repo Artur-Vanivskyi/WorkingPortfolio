@@ -23,9 +23,11 @@ const Portfolio = () => {
                 <a href={github} className="btn btn-primary" target="_blank">
                   Github
                 </a>
+                {title !== "GrubDash" && (
                 <a href={livesite} className="btn btn-primary" target="_blank">
                    Live Site
                 </a>
+                )}
               </div>
             </article>
           );
