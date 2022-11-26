@@ -55,7 +55,7 @@ export const data = [
     id: 1,
     image: grubDash,
     title: "GrubDash",
-    github: "https://github.com/Artur-Vanivskyi/GrubDash-Project/tree/main/src",
+    github: "https://github.com/Artur-Vanivskyi/GrubDash-Project",
     // livesite: "https://github.com/Artur-Vanivskyi/Local_library",
     //text: "This web app is designed for restaurant staff to organize their reservations.",
     tech: "HTML5, Bootstrap, React",
