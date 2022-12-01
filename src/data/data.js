@@ -4,6 +4,7 @@ import FlashCard from "../assets/FlashCard.png";
 import DecoderRing from "../assets/DecoderRing.png";
 import ReservationSystem from "../assets/ReservationSystem.png";
 import TODO from "../assets/to-do.png";
+import TicTacToe from "../assets/TicTacToe.png"
 
 export const data = [
   {
@@ -52,7 +53,16 @@ export const data = [
     tech: "React, Express, Node.js, PostgreSQL",
   },
   {
-    id: 1,
+    id: 5,
+    image: TicTacToe,
+    title: "Tic Tac Toe Game",
+    github: "https://github.com/Artur-Vanivskyi/Tic-Tac-Toe-Game",
+    livesite: "https://tic-tac-toe-client.onrender.com/",
+    //text: "This web app is designed for restaurant staff to organize their reservations.",
+    tech: "JavaScript, HTML, CSS",
+  },
+  {
+    id: 7,
     image: grubDash,
     title: "GrubDash",
     github: "https://github.com/Artur-Vanivskyi/GrubDash-Project",
