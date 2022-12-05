@@ -5,6 +5,7 @@ import DecoderRing from "../assets/DecoderRing.png";
 import ReservationSystem from "../assets/ReservationSystem.png";
 import TODO from "../assets/to-do.png";
 import TicTacToe from "../assets/TicTacToe.png"
+import weatherApp from "../assets/weatherApp.png";
 
 export const data = [
   {
@@ -44,7 +45,7 @@ export const data = [
     tech: "React, Express, Node.js, PostgreSQL",
   },
   {
-    id: 6,
+    id: 5,
     image: TODO,
     title: "Todo list for your fun",
     github: "https://github.com/Artur-Vanivskyi/TO-DO-List",
@@ -53,7 +54,7 @@ export const data = [
     tech: "React, Express, Node.js, PostgreSQL",
   },
   {
-    id: 5,
+    id: 6,
     image: TicTacToe,
     title: "Tic Tac Toe Game",
     github: "https://github.com/Artur-Vanivskyi/Tic-Tac-Toe-Game",
@@ -63,10 +64,19 @@ export const data = [
   },
   {
     id: 7,
+    image: weatherApp,
+    title: "Weather Land",
+    github: "https://github.com/Artur-Vanivskyi/weatherApp",
+    livesite: "https://weather-app-client-qck8.onrender.com/",
+    //text: "This web app is designed for restaurant staff to organize their reservations.",
+    tech: "JavaScript, React, CSS",
+  },
+  {
+    id: 8,
     image: grubDash,
     title: "GrubDash",
     github: "https://github.com/Artur-Vanivskyi/GrubDash-Project",
-    // livesite: "https://github.com/Artur-Vanivskyi/Local_library",
+    livesite: "https://github.com/Artur-Vanivskyi/Local_library",
     //text: "This web app is designed for restaurant staff to organize their reservations.",
     tech: "HTML5, Bootstrap, React",
   },
