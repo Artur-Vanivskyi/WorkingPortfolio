@@ -6,6 +6,7 @@ import ReservationSystem from "../assets/ReservationSystem.png";
 import TODO from "../assets/to-do.png";
 import TicTacToe from "../assets/TicTacToe.png"
 import weatherApp from "../assets/weatherApp.png";
+import Businesscard from "../assets/businesscard.png";
 
 export const data = [
   {
@@ -73,6 +74,15 @@ export const data = [
   },
   {
     id: 8,
+    image: Businesscard,
+    title: "Businesscard Holder",
+    github: "https://github.com/Artur-Vanivskyi/Business-Card",
+    livesite: "https://businesscard-client.onrender.com",
+    //text: "This web app is designed for restaurant staff to organize their reservations.",
+    tech: "JavaScript, React, Node.js, Express.js, PostgreSQL",
+  },
+  {
+    id: 9,
     image: grubDash,
     title: "GrubDash",
     github: "https://github.com/Artur-Vanivskyi/GrubDash-Project",
