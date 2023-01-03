@@ -7,6 +7,7 @@ import TODO from "../assets/to-do.png";
 import TicTacToe from "../assets/TicTacToe.png"
 import weatherApp from "../assets/weatherApp.png";
 import Businesscard from "../assets/businesscard.png";
+import Ecom from "../assets/Ecom.png";
 
 export const data = [
   {
@@ -83,6 +84,15 @@ export const data = [
   },
   {
     id: 9,
+    image: Ecom,
+    title: "Crown Shop",
+    github: "https://github.com/Artur-Vanivskyi/e-com",
+    livesite: "https://zesty-figolla-80c61c.netlify.app/",
+    //text: "This web app is designed for restaurant staff to organize their reservations.",
+    tech: "JavaScript, React, Redux, CSS, HTML",
+  },
+  {
+    id: 10,
     image: grubDash,
     title: "GrubDash",
     github: "https://github.com/Artur-Vanivskyi/GrubDash-Project",
