@@ -9,6 +9,7 @@ const Portfolio = () => {
       <h4>My Recent Work</h4>
       <h2>Portfolio</h2>
 
+
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, livesite, text, tech }) => {
           return (
