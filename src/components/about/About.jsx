@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1+ Years</small>
+              <small>3+ Years</small>
             </article>
 
             {/* <article className="about__card">
@@ -34,7 +34,7 @@ const About = () => {
             <article className="about__card">
               <AiFillFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small>Couple in progress</small>
+              <small>4 + Couple in progress</small>
             </article>
           </div>
 
