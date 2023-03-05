@@ -4,14 +4,14 @@ import CTA from "./CTA";
 import robot from "../../assets/robot.png";
 import HeaderSocials from "./HeaderSocials";
 
-const Header = () => {
+const Header = ({handleClickShow}) => {
   return (
     <header>
       <div className="container header__container">
         <h3>Hello I'm</h3>
         <h1>Artur Vanivskyi</h1>
         <h3 className="text-light">Fullstack Developer</h3>
-        <CTA />
+        <CTA handleClickShow={handleClickShow}/>
         <HeaderSocials />
 
         <div className="me">

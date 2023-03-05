@@ -6,6 +6,8 @@ import { BiBook } from "react-icons/bi";
 import { AiOutlinePlayCircle } from "react-icons/ai";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
