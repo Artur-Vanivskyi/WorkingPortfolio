@@ -1,7 +1,17 @@
+#game-zone{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* margin: 0; */
+    padding-bottom: 40px;
+}
+
 .Game {
     max-width: 860px;
-    margin: 40px auto;
-    position: relative;
+    /* margin: 40px auto; */
+    /* position: relative; */
+    /* border: 1px solid red; */
+    padding-top: 30px;
 }
 
 .Game h1 {
@@ -25,12 +35,12 @@
     }
 }
 
-.Game button {
-    position: absolute;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
+
 
 .gameButton {
     background: none;
@@ -49,7 +59,7 @@
     color: #fff;
 }
 
-.card-grid {
+.card-grid-game {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

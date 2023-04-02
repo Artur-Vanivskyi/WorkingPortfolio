@@ -8,7 +8,6 @@ import scroll from "../../assets/img/scroll-1.png";
 import shiled from "../../assets/img/shield-1.png";
 import sword from "../../assets/img/sword-1.png";
 
-
 const cardImages = [
   { src: helmet, matched: false },
   { src: potion, matched: false },
@@ -32,7 +31,6 @@ function Game() {
     const shuffledCards = [...cardImages, ...cardImages]
       .sort(() => Math.random() - 0.5)
       .map((card) => ({ ...card, id: Math.random() }));
-
 
     setChoiceOne(null);
     setChoiceTwo(null);
@@ -83,22 +81,28 @@ function Game() {
   }, []);
 
   return (
-    <div className="Game" id="game">
-      <h1>Magic Match</h1>
-      <button onClick={shuffleCards} className="gameButton">New Game</button>
-      <div className="card-grid">
-        {cards.map((card) => (
-          <SingleCard
-            card={card}
-            key={card.id}
-            handleChoice={handleChoice}
-            flipped={card === choiceOne || card === choiceTwo || card.matched}
-            disabled={disabled}
-          />
-        ))}
+   <section id="game-zone">
+      <div className="Game" id="game">
+        <h1>Magic Match</h1>
+        <div className="button-container">
+        <button onClick={shuffleCards} className="gameButton">
+          New Game
+        </button>
+        </div>
+        <div className="card-grid-game">
+          {cards.map((card) => (
+            <SingleCard
+              card={card}
+              key={card.id}
+              handleChoice={handleChoice}
+              flipped={card === choiceOne || card === choiceTwo || card.matched}
+              disabled={disabled}
+            />
+          ))}
+        </div>
+        <p>Turns: {turns}</p>
       </div>
-      <p>Turns: {turns}</p>
-    </div>
+     </section>
   );
 }
 

@@ -14,13 +14,13 @@ function SingleCard({ card, handleChoice, flipped, disabled }) {
 
 
   return (
-    <div className="card">
+    <div className="card-game">
       <div className={flipped ? "flipped" : ""}>
-        <img className="front" src={card.src} alt="card-front" />
+        <img className="front" src={card.src} alt="card-front-game" />
         <img
           className="back"
           src={cover}
-          alt="card-back"
+          alt="card-back-game"
           onClick={handleClick}
         />
       </div>

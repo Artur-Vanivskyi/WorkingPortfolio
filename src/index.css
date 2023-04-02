@@ -39,6 +39,7 @@ body {
     background-image: url(../src/assets/bg-texture.png);
 }
 
+
 /* =============== GENERAL STYLES =================*/
 
 .container {
@@ -56,7 +57,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    
+    /* border: 2px solid orange; */
 }
 
 section>h2, section>h4 {

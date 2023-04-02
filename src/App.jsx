@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Game from "./components/memory-game/Game.js";
 
+
 const App = () => {
 
  const [showGame, setShowGame] = useState(false);
@@ -19,7 +20,6 @@ const App = () => {
 
   return (
     <>
-    
       <Header handleClickShow={handleClickShow}/>
       <Nav />
       <About />
@@ -28,8 +28,6 @@ const App = () => {
       <Contact />
       <Footer />
      {showGame && <Game />}
-      {/* <Game /> */}
-     
     </>
   );
 };
