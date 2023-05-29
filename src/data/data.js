@@ -9,6 +9,8 @@ import weatherApp from "../assets/weatherApp.png";
 import Businesscard from "../assets/businesscard.png";
 import Ecom from "../assets/Ecom.png";
 import Xline from "../assets/x-line.png";
+import SocialClub from "../assets/SocialClub.png";
+
 
 export const data = [
   {
@@ -29,6 +31,16 @@ export const data = [
     //text: "This web app is designed for restaurant staff to organize their reservations.",
     tech: "JavaScript, React, Redux, CSS, HTML",
   },
+  {
+    id: 3,
+    image: SocialClub,
+    title: "Social Club",
+    github: "https://github.com/Artur-Vanivskyi/Social-prac-client.git",
+    livesite: "https://socialclub1.netlify.app/",
+    //text: "This web app is designed for restaurant staff to organize their reservations.",
+    tech: "React, Express, Node.js, MongoDB, MUI, Redux",
+  },
+
   {
     id: 3,
     image: ReservationSystem,
